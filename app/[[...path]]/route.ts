@@ -56,8 +56,8 @@ export async function GET(
     // Overwrite title
     html = html.replace(/<title>[^<]*<\/title>/, `<title>BranDeFy - Best Creative Agency in India</title>`);
 
-    const SEO_TITLE = "BranDeFy - Best Creative Agency in India";
-    const SEO_DESC = "Brandefy crafts high-converting websites, powerful branding, and strategic marketing solutions to help businesses grow faster, stand out online, and turn visitors into loyal customers.";
+    const SEO_TITLE = "Akash Awal - Developer and Performance Marketer";
+    const SEO_DESC = "Akash Awal is a web developer and digital marketer building websites and helping brands grow online through modern design strategy and marketing insights.";
 
     // Overwrite or inject meta description
     const metaDesc = `<meta name="description" content="${SEO_DESC}">`;
