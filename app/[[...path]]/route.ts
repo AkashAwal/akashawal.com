@@ -1,12 +1,8 @@
 import { NextRequest } from "next/server";
 
-const FRAMER_BASE = "https://marvelous-osprey-690817.framer.app";
+const FRAMER_BASE = "https://generic-photos-835723.framer.app/";
 
-const ALLOWED_PAGES = new Set(["", "videos",
-  "simross", "amarainteriors", "metallicawindows",
-  "belgee", "jairolia", "mars", "necesera","maya",
-  "atpatabytaste","cpj-momo","cpj-rabun","mmtime",
-  "jaiman", "contact", "portfolio", "404"]);
+const ALLOWED_PAGES = new Set(["", "projects", "404"]);
 
 export async function GET(
   req: NextRequest,
