@@ -87,7 +87,7 @@ export async function GET(
     // Lock title so Framer's client-side JS cannot overwrite it
     html = html.replace(
       "</head>",
-      `<script>(function(){var t="BranDeFy - Best Creative Agency in India";document.title=t;Object.defineProperty(document,"title",{get:function(){return t;},set:function(){},configurable:false});})();</script>` +
+      `<script>(function(){var t="Akash Awal - Developer and Performance Marketer";document.title=t;Object.defineProperty(document,"title",{get:function(){return t;},set:function(){},configurable:false});})();</script>` +
       `<style>.__framer-badge { display: none !important; }</style></head>`
     );
 
