@@ -2,7 +2,7 @@ import { NextRequest } from "next/server";
 
 const FRAMER_BASE = "https://poised-humans-334518.framer.app/";
 
-const ALLOWED_PAGES = new Set(["", "projects", "404"]);
+const ALLOWED_PAGES = new Set(["", "projects", "404" "contact"]);
 
 export async function GET(
   req: NextRequest,
