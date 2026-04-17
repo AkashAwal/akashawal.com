@@ -88,7 +88,7 @@ export async function GET(
     html = html.replace(
       "</head>",
       `<script>(function(){var t="Akash Awal - Developer and Performance Marketer";document.title=t;Object.defineProperty(document,"title",{get:function(){return t;},set:function(){},configurable:false});})();</script>` +
-      `<style>.__framer-badge { display: none !important; }</style></head>`
+      `<style>.__framer-badge { display: none !important; } .framer-1c98av2 { display: none !important; } .framer-hr3izo { display: none !important; } .framer-1gk6qfa-container { display: none !important; }</style></head>`
     );
 
     // Fix Safari/iOS video compatibility issues
