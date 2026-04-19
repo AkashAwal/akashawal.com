@@ -2,7 +2,7 @@ import { NextRequest } from "next/server";
 
 const FRAMER_BASE = "https://fancy-path-702320.framer.app/";
 
-const ALLOWED_PAGES = new Set(["", "about", "404", "contact" "work" "blog"]);
+const ALLOWED_PAGES = new Set(["", "about", "404", "contact", "work", "blog"]);
 
 export async function GET(
   req: NextRequest,
