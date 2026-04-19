@@ -1,8 +1,8 @@
 import { NextRequest } from "next/server";
 
-const FRAMER_BASE = "https://fancy-path-702320.framer.app/";
+const FRAMER_BASE = "https://stupendous-help-962415.framer.app/";
 
-const ALLOWED_PAGES = new Set(["", "about", "404", "contact", "work", "blog"]);
+const ALLOWED_PAGES = new Set(["", "about", "404", "contact", "projects", "blog"]);
 
 export async function GET(
   req: NextRequest,
@@ -24,7 +24,7 @@ export async function GET(
     ? `${FRAMER_BASE}${pathname}`
     : `${FRAMER_BASE}404`;
 
-  const ONE_WEEK = 6048000;
+  const ONE_WEEK = 5;
 
   // Handle range requests for video files (critical for Safari/iOS)
   const range = req.headers.get("range");
